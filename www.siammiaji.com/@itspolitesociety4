@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siam Miaji</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- SEO -->
+    <meta name="description" content="আমি সিয়াম মিয়াজী — নিজেকে গড়ার লড়াইয়ে প্রতিদিন এগিয়ে চলা একজন শিক্ষার্থী! Itspolitesociety4 | Social Links: TikTok, Instagram, Facebook, Twitter, Threads">
+    <meta name="keywords" content="Siam Miaji, itspolitesociety4, TikTok, Instagram, Facebook, Twitter, Threads">
+    <meta name="author" content="Siam Miaji">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 50px 30px;
+            border-radius: 25px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #4a90e2;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .profile-photo:hover { transform: scale(1.05); }
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 28px;
+            color: #4a90e2;
+            margin-bottom: 15px;
+        }
+        p.bio { font-size: 16px; color: #555; margin-bottom: 10px; }
+        p.address, p.dream { font-size: 14px; color: #777; margin-bottom: 8px; }
+        .socials {
+            margin-top: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+        .socials a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #4a90e2;
+            padding: 10px 18px;
+            border-radius: 12px;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+        .socials a:hover {
+            background-color: #357ABD;
+            transform: translateY(-3px);
+        }
+        .socials i { font-size: 16px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="profile.jpg" alt="Siam Miaji" class="profile-photo">
+        <h1>আমি সিয়াম মিয়াজী</h1>
+        <p class="bio">itspolitesociety4</p>
+        <p class="address">কৈলাইন পশ্চিম পাড়া, হাজী ও মিয়াজী বাড়ি</p>
+        <p class="dream">স্বপ্নের POLITE SOCIETY গড়ে তোলা</p>
+
+        <div class="socials">
+            <a href="https://www.tiktok.com/@saramtypz7v?_r=1&_t=ZS-925jnzkDDoj" target="_blank">
+                <i class="fab fa-tiktok"></i> TikTok 1
+            </a>
+            <a href="https://www.tiktok.com/@itspolitesociety4?_r=1&_t=ZS-925js43v5XQ" target="_blank">
+                <i class="fab fa-tiktok"></i> TikTok 2
+            </a>
+            <a href="https://www.instagram.com/itspolitesociety4?igsh=dzZ3Z29iZHQ3YjI2" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.facebook.com/share/17sRJVDDy6/" target="_blank">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://x.com/itspolitesociet" target="_blank">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://www.threads.com/@itspolitesociety4" target="_blank">
+                <i class="fab fa-thread"></i> Threads
+            </a>
+        </div>
+    </div>
+</body>
+</html>
